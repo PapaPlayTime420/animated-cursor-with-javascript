@@ -2,7 +2,7 @@
 animated cursor with javascript
 
 how to use:
-call animate_cursor with an array of url strings and a delay. animate_cursor returns an interval id. if you want to stop the animation, call clearInterval with that id.
+call animate_cursor with an array of url strings and a delay as the arguments. animate_cursor returns an interval id. if you want to stop the animation, call clearInterval with that id.
 
 example of use:
 <pre>//to initialize the animation
