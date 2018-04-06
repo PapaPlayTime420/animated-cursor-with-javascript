@@ -6,9 +6,11 @@ function animate_cursor(urls, delay){
   var index = 0;
   return setInterval(function(){
     document.documentElement.style.cursor = 'url(' + urls[index] + '), auto';
-    ++index;
-    if(index > urls.length - 1){
+    if(index >= urls.length - 1){
       index = 0;
+    }
+    else{
+      ++index;
     }
   }, delay);
 }
